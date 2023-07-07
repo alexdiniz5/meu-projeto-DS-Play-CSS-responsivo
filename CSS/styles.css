@@ -1,0 +1,589 @@
+/* ELEMENTS */
+:root {
+    --color-green: #38AF90;
+    --color-white: #FFFFFF;
+    --dark-gray: #797979;
+    --pink: #DD7E92;
+    --light-gray: #F0F0F0;
+    --very-dark-gray: #383838;
+    --very-light-gray: #C4C4C4;
+    --gray: #999999;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+footer {
+    height: 320px;
+    background-color: var(--very-dark-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CLASSES, IDS */
+
+.nav-container {
+    background-color: var(--color-green);
+    height: 90px;
+    width: 100%;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nav-main {
+    height: 90px;
+    width: 100%;
+    color: var(--color-white);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-main h1 {
+    margin: 32px 10px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.nav-main a {
+    color: var(--color-white);
+    text-decoration: none;
+    display: flex;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items ul {
+    display: flex;
+}
+
+.nav-items li {
+    margin-right: 29px;
+    font-size: 14px;
+    line-height: 21px;
+    list-style-type: none;
+}
+
+.nav-items img {
+    margin: 14px 10px 14px 0px;
+    width: 62px;
+    padding: 0;
+}
+
+.news-section {
+    margin: 40px 10px 40px 10px;
+}
+
+.news-section h2 {
+    font-size: 24px;
+    color: var(--dark-gray);
+    height: 36px;
+    text-align: center;
+}
+
+.news-cards-section {
+    height: fit-content;
+    margin: 8px 10px 28px 10px;
+    padding-top: 16px;
+    background-color: var(--light-gray);
+    border-radius: 8px;
+    border: 1px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.news-cards h3 {
+    color: var(--color-green);
+    margin-right: 13px;
+    margin-left: 12px;
+}
+
+.news-cards h4 {
+    color: var(--dark-gray);
+    margin-right: 13px;
+    margin-left: 12px;
+}
+
+.news-line {
+    width: 95%;
+    height: 2px;
+    border: 1px solid var(--color-green);
+    margin: 3px 11.24px 1px 13px;
+    background-color: var(--color-green);
+}
+
+.news-date {
+    width: 95%;
+    height: 15px;
+    margin: 1px 12px 12px 13px;
+    color: var(--color-green);
+}
+
+.news-text-container {
+    width: 95%;
+    height: fit-content;
+    margin: 12px 2px 0px 12px;
+}
+
+.news-text {
+    color: var(--dark-gray);
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.news-section a {
+    margin: 0 16px 12px 12px;
+    color: var(--pink);
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.news-section-more-button-container {
+    margin: 28px 38px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.news-section-more-button {
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: var(--pink);
+    border: none;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.games-section {
+    width: 100%;
+    height: 1176px;
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.games-section h2 {
+    width: 75px;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 123px 18px 122px;
+    color: var(--color-green);
+}
+
+.games-section-card-1 {
+    width: 300px;
+    height: 326px;
+    margin: 28px 10px 27px 10px;
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background-color: var(--color-white);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.games-section-card-2 {
+    width: 300px;
+    height: 326px;
+    margin: 28px 10px 27px 10px;
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background-color: var(--color-white);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.games-section-card-3 {
+    width: 300px;
+    height: 326px;
+    margin: 28px 10px 27px 10px;
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background-color: var(--color-white);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.games-section-card-1 img {
+    width: 300px;
+    height: 168.54px;
+    padding: 0;
+    margin: 0;
+    border: 1px;
+    border-radius: 8px;
+}
+
+.games-section-card-2 img {
+    width: 300px;
+    height: 168.54px;
+    padding: 0;
+    margin: 0;
+    border: 1px;
+    border-radius: 8px;
+}
+
+.games-section-card-3 img {
+    width: 300px;
+    height: 168.54px;
+    padding: 0;
+    margin: 0;
+    border: 1px;
+    border-radius: 8px;
+}
+
+.games-card-information h3 {
+    margin: 27px 40px 0;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: var(--dark-gray);
+}
+
+.games-card-information p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.games-card-information span {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    color: var(--color-green);
+}
+
+.game-user-rating {
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+    margin: 13px 124px 15px;
+    color: var(--color-green);
+}
+
+.signup-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 40px 0;
+}
+
+.signup-section h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    white-space: nowrap;
+    margin: 40px 44px 16px 45px;
+    color: var(--dark-gray);
+    justify-content: center;
+}
+
+.signup-form {
+    width: 300px;
+    height: 603px;
+    margin: 0 8px 0px 12px;
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: var(--light-gray);
+}
+
+.signup-form-name input {
+    width: 280px;
+    height: 50px;
+    margin: 38px 12px 10px 8px;
+    border: 1px solid var(--dark-gray);
+    border-radius: 4px;
+    background-color: var(--color-white);
+    color: var(--very-dark-gray);
+    padding: 0 0 0 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.signup-form-name ::placeholder {
+    width: 130px;
+    margin: 13px 128px 13px 22px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--very-light-gray);
+    border: none;
+}
+
+.signup-form-email input {
+    width: 280px;
+    height: 50px;
+    margin: 20px 12px 10px 8px;
+    border: 1px solid var(--dark-gray);
+    border-radius: 4px;
+    background-color: var(--color-white);
+    color: var(--very-dark-gray);
+    padding: 0 0 0 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.signup-form-email ::placeholder {
+    width: 130px;
+    margin: 13px 128px 13px 22px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--very-light-gray);
+    border: none;
+
+}
+
+.signup-form-platform {
+    color: var(--dark-gray);
+    margin: 0 39px 35px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup-form-platform-options input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 1px solid var(--gray);
+    outline: none;
+    margin: 15px 0 0 8px;
+    background-color: var(--color-white);
+}
+
+.signup-form-platform-options input[type="radio"]:checked {
+    background-color: var(--gray);
+    box-shadow: inset 0 0 0 6px var(--color-white);
+}
+
+.signup-form-platform-options label {
+    position: absolute;
+    margin: 15px 0 0 7px;
+}
+
+.signup-form-platform-updates input[type="checkbox"] {
+    width: 23px;
+    height: 23px;
+    margin: 0 0 0 16px;
+    border: 1px solid var(--gray);
+    border-radius: 25%;
+}
+
+.signup-form-platform-updates label {
+    position: absolute;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--dark-gray);
+    margin: 0 0 0 9px;
+}
+
+.signup-form-platform-updates input[type="checkbox"]:checked {
+    filter: grayscale(100%);
+}
+
+.signup-form-platform-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form-platform-send-button {
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: var(--pink);
+    border: none;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 27px 30px 20px 26px;
+}
+
+.signup-form-platform-erase-button {
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: var(--color-white);
+    border: 2px solid var(--pink);
+    color: var(--pink);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0 30px 20px 26px;
+}
+
+.footer-container {
+    color: var(--color-white);
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+footer a {
+    color: var(--color-white);
+    text-decoration: none;
+    display: block;
+}
+
+.footer-social-media {
+    margin: 28px;
+}
+
+.footer-text {
+    margin: 37.32px;
+}
+
+@media (min-width: 320px) {
+    .nav-items {
+        visibility: hidden;
+    }
+
+    .nav-items img {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav-items {
+        visibility: visible;
+    }
+
+    .nav-items img {
+        margin-right: 105px;
+    }
+
+    .nav-main h1 {
+        margin: 27px 482px 27px 105px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .news-section {
+        width: 90%;
+        margin: 40px 105px 56px 105px;
+    }
+
+    .news-section h2 {
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .news-cards h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .news-cards h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .games-section {
+        height: 559px;
+    }
+
+    .games-section h2 {
+        font-size: 36px;
+        line-height: 54px;
+        margin: 26px 546px 63px 542px;
+    }
+
+    .games-section-cards-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .signup-section h2 {
+        font-size: 36px;
+        line-height: 54px;
+        font-weight: 700;
+    }
+
+    .signup-form {
+        margin: 39px 205px 61px;
+        width: 790px;
+        height: 522px;
+    }
+
+    .signup-form-name input {
+        width: 642px;
+        margin-left: 73px;
+    }
+
+    .signup-form-email input {
+        width: 642px;
+        margin-left: 72px;
+    }
+
+    .signup-form-platform {
+        margin-left: 72px;
+    }
+
+    .signup-form-platform-updates input[type="checkbox"] {
+        margin-left: 72px;
+    }
+
+    .signup-form-platform-button-container {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    .signup-form-platform-send-button {
+        margin: 18px 30px 42px 26px;
+    }
+
+    .signup-form-platform-erase-button {
+        margin: 18px 30px 42px 26px;
+    }
+
+    .footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 190px;
+    }
+}
